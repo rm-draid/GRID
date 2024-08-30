@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+:root {
+  --bg-primary: #32334c;
+  --text-primary: white;
+  --btn-primary: #ef6d58;
+}
+.contener {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+.upper_part {
+  display: flex;
+  justify-content: space-around;
+  background: var(--bg-primary);
+  padding-top: 15px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: 1.5s;
+}
+a:hover {
+  color: aqua;
+}
+.link {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+  align-items: center;
+}
+.btn {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  padding: 18px 34px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14.35px;
+  border: 0.5px solid slategrey;
+  border-radius: 9px;
+  transition: 2s;
+}
+.btn:hover {
+  background: blue;
+  color: aqua;
+  cursor: pointer;
+}
+.build_your {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.were_help {
+  align-items: center;
+}
+.how_we_work {
+  border: none;
+  background: var(--btn-primary);
+  color: var(--text-primary);
+}
+.meta_inc {
+  display: flex;
+  margin-top: 100px;
+  padding-bottom: 64px;
+}
+.nav_burger {
+  margin: 16px;
+  border-radius: 7px;
+  display: none;
+}
+.contain {
+  background: #f3d1bf;
+}
+.about_us {
+  margin-top: 42px;
+  background: var(--text-primary);
+  color: black;
+  border: none;
+}
+.about {
+  padding-top: 100px;
+}
+.looggoo {
+  display: flex;
+  justify-content: space-around;
+  padding: 72px;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.experience_design {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  background: #f3d1bf;
+}
+.years_of_experience {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  background: #f3d1bf;
+}
+.projects_complete {
+  width: 391px;
+  height: 176px;
+  border: bisque solid 2px;
+  padding-left: 50px;
+  padding-top: 50px;
+  margin: 15px;
+}
+.and_work_as {
+  max-width: 1170px;
+  display: flex;
+  gap: 130px;
+}
+.making_your_projects {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f3d1bf;
+}
+.service_range_including {
+  color: black;
+}
+.look_awesome {
+  color: black;
+}
+
+.video_reel {
+  justify-content: center;
+  align-items: center;
+}
+.contener_new {
+  display: flex;
+  padding-top: 100px;
+  background: #f3d1bf;
+  gap: 130px;
+  align-items: center;
+}
+.video_new {
+  margin-left: 235px;
+  position: relative;
+}
+.video {
+  position: relative;
+}
+.number {
+  bottom: 90px 0;
+  top: 90px 0;
+  position: absolute;
+  position: relative;
+}
+.value_possible_new {
+  font-weight: 800;
+  font-size: 40px;
+}
+.value_possible {
+  margin: 30px 0;
+}
+/*---------------------------YANGI SECTION------------------------------*/
+.give_your_site {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #f3d1bf;
+  padding-top: 100px;
+}
+.new_look {
+  align-items: center;
+  margin: 20px 0;
+}
+.technical_skills {
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 64px;
+}
+.skills {
+  color: #ef6d58;
+}
+.business_understanding {
+  justify-content: center;
+  position: relative;
+}
+/*---------------------------YANGI SECTION------------------------------*/
+.accessibility {
+  background: #f3d1bf;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding-top: 100px;
+}
+.strelka {
+  top: 20px;
+  left: 20px;
+  position: relative;
+}
+.team {
+  padding-top: 100px;
+}
+.strelka_new {
+  width: 70px;
+  height: 70px;
+  background: #ef6c57;
+  border-radius: 50%;
+  position: relative;
+}
+.indicator {
+  width: 236px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding-top: 50px;
+  padding-left: 40px;
+  margin: 50px 0;
+}
+.design {
+  padding-top: 150px;
+
+  height: 300px;
+}
+/*---------------------------YANGI SECTION------------------------------*/
+.service {
+  display: grid;
+  gap: 100px;
+  background: #f3d1bf;
+  padding-top: 150px;
+  grid-template-columns: 500px 500px;
+  grid-template-columns: repeat(2, 50%);
+  overflow: hidden;
+}
+.digital_products {
+  margin-left: 100px;
+}
+.service_range_including {
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 64px;
+}
+.jenny {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  gap: 10px;
+}
+.explore {
+  padding: 7px 25px;
+  border: none;
+  transition: 1.5s;
+}
+.explore:hover {
+  background: rgb(47, 47, 95);
+  color: white;
+}
+/*---------------------------YANGI SECTION------------------------------*/
+.can_help {
+  padding-top: 100px;
+  background: #f3d1bf;
+  padding-left: 220px;
+}
+.how_our_agency {
+  padding-top: 100px;
+  background: #f3d1bf;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  position: relative;
+}
+.discover_more {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.learn_more {
+  width: 291px;
+  height: 300px;
+
+  position: relative;
+}
+.development {
+  width: 291px;
+  height: 300px;
+  position: relative;
+}
+.marketing {
+  width: 291px;
+  height: 300px;
+  position: relative;
+}
+.sell_new {
+  top: 20px;
+  left: 20px;
+  position: relative;
+}
+.sell {
+  width: 70px;
+  height: 70px;
+  background: #ef6c57;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 30px;
+}
+.explore_now {
+  margin-top: 30px;
+}
+/*---------------------------YANGI SECTION------------------------------*/
+.branding {
+  background: var(--bg-primary);
+}
+
+.latest_work {
+  padding-left: 40%;
+}
+.motion {
+  padding-top: 40px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.illustration {
+  display: flex;
+  gap: 20px;
+  padding-left: 10%;
+  position: relative;
+}
+.illustration_new {
+  display: flex;
+  gap: 20px;
+  padding-left: 10%;
+  padding-top: 30px;
+  position: relative;
+}
+
+.sofa {
+  padding: 5px 16px;
+  border-radius: 16px;
+  border: none;
+  top: 390px;
+  left: 20px;
+  position: absolute;
+  position: relative;
+  transition: 1.5s;
+}
+.sofa:hover {
+  background: #32334c;
+  color: white;
+}
+@media (max-width: 568px) {
+  .header_new {
+    max-width: 1770px;
+  }
+  .link {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+  .nav_burger {
+    display: flex;
+  }
+  .star_new {
+    display: none;
+  }
+  .how_we_work {
+    display: flex;
+  }
+  .build_your {
+    flex-direction: column;
+  }
+
+  .mix_new {
+    width: 329px;
+    height: 234px;
+    order: -1;
+    margin-bottom: 20px;
+    padding-bottom: 500px;
+  }
+
+  .mix_new_img {
+    width: 429px;
+    height: 434px;
+    margin-left: 10%;
+  }
+  .range_including_technical p {
+    font-size: 16px;
+    padding-right: 200px;
+  }
+  .contact_us_link {
+    margin-top: 45px;
+  }
+  .how_work {
+    display: flex;
+    padding-top: 40px;
+  }
+
+  .contact_us_link {
+    text-align: center;
+  }
+  .meta_inc {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .looggoo {
+    display: flex;
+    padding: 60px;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .office {
+    width: 529px;
+    height: 540px;
+    opacity: 0px;
+  }
+  .and_work_as {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .office img {
+    width: 80px;
+  }
+
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .about .description {
+    padding-top: 15px;
+  }
+
+  .about_us {
+    display: flex;
+  }
+
+  .years_of_experience {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects_complete {
+    margin-bottom: 20px;
+  }
+  .how_we_work {
+    overflow: hidden;
+  }
+  .making_your_projects {
+    display: grid;
+    overflow: hidden;
+  }
+  .video_new {
+    display: flex;
+    margin-left: 0px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .contener_new {
+    overflow: hidden;
+    flex-direction: column;
+  }
+  .unlock_the_greatest {
+    width: 60%;
+    text-decoration: left;
+  }
+  .give_your_site {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .a_new_look {
+    width: 83%;
+  }
+  .accessibility {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team {
+    width: 40%;
+    margin-right: 200px;
+  }
+  .design {
+    width: 40%;
+  }
+  .the_sun {
+    width: 429px;
+    height: 427px;
+    margin-right: 200px;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+  }
+  .jenny_murtaugh {
+    width: 80%;
+    margin-left: 20px;
+  }
+
+  .how_our_agency {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .portfolio {
+    display: none;
+  }
+
+  .illustration {
+    flex-direction: column;
+    padding-top: 300px;
+  }
+  .illustration_new {
+    flex-direction: column;
+  }
+  .explore_more {
+    width: 90%;
+  }
+  .sofa {
+    display: none;
+  }
+}
